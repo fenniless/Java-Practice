@@ -28,7 +28,7 @@ public class Entry{
     }
 
     public void incrementCount() {
-        this.count += count;
+        this.count = count + 1;
     }
 
     @Override
